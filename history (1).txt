@@ -1,0 +1,24 @@
+   0 date
+   1 date +"$H:%M:%S"
+   2 date +"%H:%M:%S"
+   3 nano sleeper.sh
+   4 ps -ef
+   5 ps -ef | wc
+   6 ps -ef | wc -l
+   7 nano sleeper.sh
+   8 cat /proc/cpuinfo
+   9 nano sleeper.sh
+  10 cat /etc/os-release 
+  11 cat /etc/os-release | head -l
+  12 cat /etc/os-release | grep -w NAME
+  13 cat /etc/os-release | grep -w NAME | awk '{print $1}'
+  14 cat /etc/os-release | grep -w NAME | awk '{print $1}' | sed 's/NAME="//'
+  15 nano sleeper.sh
+  16 history
+  17 chmod 774 sleeper.sh 
+  18 history
+  19 history >> history2.txt
+  20 export.file history2.txt
+  21 history >> history.txt
+  22 export.file history.txt
+  23 history > history.txt
